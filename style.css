@@ -1,0 +1,234 @@
+body {
+    font-family: bebas nune;
+    font-weight: 700;
+    margin: 0;
+}
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+nav {
+    width: 90%;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 8%;
+    padding-left: 2%;
+}
+.half-width img {
+    width: 75%;
+    margin-top: 70px;
+}
+.text-area {
+    margin-top: 80px;
+}
+.top-banner p {
+    margin-bottom: 50px;
+}
+
+.name-hilight {
+    color: tomato;
+}
+
+section {
+    height: 550px;
+}
+.btn {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #ff8063, #f46060);
+    padding: 20px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.margin {
+    margin-bottom: 30px;
+}
+.about-area {
+    padding-bottom: 30px;
+}
+.about-area a {
+    margin-bottom: 30px;
+}
+.about-area p {
+    margin-bottom: 50px;
+}
+.skill-area {
+    width: 80%;
+    margin: 20px auto;
+    color: black;
+}
+.skill-area h1 {
+    text-align: center;
+}
+.skill-area li {
+    margin: 20px 0;
+    list-style: none;
+}
+.bar {
+    background: #353b48;
+    display: block;
+    height: 10px;
+    border: 1px solid rgba(0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #ff8063;
+}
+.bar span {
+    height: 10px;
+    float: left;
+    background: #f46060;
+}
+.html {
+    width: 90%;
+}
+.css {
+    width: 80%;
+}
+.javascript {
+    width: 65%;
+}
+.react {
+    width: 80%;
+}
+
+
+.portfolio-area {
+    background-color: rgb(253, 250, 250);
+    padding: 80px 0;
+}
+.portfolio-area h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+.left-area{
+    width: 320px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.left-area img {
+    height: 200px;
+    width: 320px;
+}
+.middle-area{
+    width: 320px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.middle-area img {
+    height: 200px;
+    width: 320px;
+}
+.right-area{
+    width: 320px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.right-area img {
+    height: 200px;
+    width: 320px;
+}
+.portfolio-area .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-area {
+    padding: 100px 0 0 0;
+}
+.work {
+    background-image: url("images/Group_33094_1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+.work h1 {
+    width: 70%;
+    float: left;
+    color: white;
+    font-size: 40px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+.work button {
+    margin-top: 50px;
+}
+
+
+.footer-area {
+    padding: 50px 0;
+    margin: auto;
+    margin-top: -350px;
+}
+.footer-area .container {
+    width: 30%;
+    margin: auto;
+}
+.footer-area h3{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: -20px;
+}
+.footer-area a {
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+.footer-area .img1 {
+    width: 40px;
+    padding-left: 100px;
+    padding-top: 20px;
+    margin: auto;
+}
+.footer-area .img2 {
+    width: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: auto;
+}
+.footer-area .img3 {
+    width: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: auto;
+}
